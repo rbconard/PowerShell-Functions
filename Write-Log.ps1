@@ -11,7 +11,7 @@
 .INPUTS
    System.String
 .OUTPUTS
-   There are now Outputs from the function. 
+   There are no Outputs from the function.
 #>
 #- Function to write to log file and display to screen
 function Write-Log {
