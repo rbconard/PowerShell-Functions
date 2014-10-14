@@ -8,6 +8,10 @@
    Write-Log "Hello World" C:\Temp\HelloWorld.Log
 
    Writes "Hello World" to log file on C:\Temp\HelloWorld.log
+.INPUTS
+   System.String
+.OUTPUTS
+   There are now Outputs from the function. 
 #>
 #- Function to write to log file and display to screen
 function Write-Log {
